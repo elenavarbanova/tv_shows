@@ -1,0 +1,76 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+        <style media="screen">
+        </style>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Actors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/actors1">Outer banks</a>
+          <a class="dropdown-item" href="/actors2">Elite</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/comments">Comments</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<body>
+  <blockquote class="blockquote text-center">
+    <h1 style="font-size:50px">Outer banks</h1>
+    </blockquote>
+    <br>
+    <br>
+    <img src="{% static "images/netflix-outer-banks-duyurdu-687x400-1.jpg" %}" class="rounded mx-auto d-block" width="500" height="300">
+    <br>
+    <br>
+    <div class="container">
+    <p>
+      Outer Banks follows a group of teenagers in the Outer Banks of North Carolina who are called "Pogues", who live at The Cut, and are determined to find out what happened to the missing father of the group's ringleader, John B. Along the way, they discover a legendary treasure that is tied to John B's father.
+
+    Chased by the law and a wealthy and superior group called the "Kooks" from Figure Eight, the Pogues seek to overcome obstacles such as drugs, love, fighting, friendship, money and how the rich keep on winning in their quest to reach John B's father's goal that he had been working on for 20 years.
+    </p>
+  </div>
+
+  <blockquote class="blockquote text-center">
+    <h1 style="font-size:50px">Elite</h1>
+    </blockquote>
+    <br>
+    <br>
+    <img src="{% static "images/Elite.jpg" %}" class="rounded mx-auto d-block" width="500" height="300">
+    <br>
+    <br>
+    <div class="container">
+    <p>
+      Elite is a Spanish thriller teen drama web television series created for Netflix by Carlos Montero and Darío Madrona. The series is set in Las Encinas, a fictional elite secondary school and revolves around the relationships between three working-class teenage students enrolled at the school through a scholarship and their wealthy classmates.
+<br>
+      Elite explores concepts and themes associated with teen dramas, but also features more progressive issues and other sides to its clichés. These include many diverse sexual themes. Structurally, the series employs a flash-forward plot that involves a mystery element, with each season taking place in two timelines. The first season, consisting of eight episodes, was released on Netflix on 8 October 2018. It received positive reviews from critics and audiences, with many hailing the series as a "guilty pleasure", and praising its writing, acting and portrayal of mature themes. In October 2018, the series was renewed for a second season, which was released on 6 September 2019. A third season was ordered in August 2019 and was released on 13 March 2020. In January 2020, Netflix renewed the series for a fourth and fifth season.
+    </p>
+  </div>
+</body>
+</html>

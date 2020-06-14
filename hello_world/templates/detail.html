@@ -1,0 +1,17 @@
+{% extends 'comments.html' %}
+
+{% block content %}
+  <h4>Details of your comment.</h4>
+  <div class="post">
+        <h2><a href="">{{ post.title }}</a></h2>
+        <small>{{post.author.name}}</small>
+        <div class="date">
+            {{ post.created }}
+        </div>
+        <p>{{ post.text|linebreaksbr }}</p>
+        <form method="post">
+          {%csrf_token%}
+          <button type="submit" class="btn btn-primary href="/post" >DELETE</button>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Actors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item active" href="#">Outer banks</a>
+          <a class="dropdown-item" href="/actors2">Elite</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/comments">Comments</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<body>
+  <blockquote class="blockquote text-center">
+    <h1 style="font-size:50px">Actors</h1>
+    </blockquote>
+    <br>
+    <img src="{% static "images/outer-banks-cast-hanging-out-pictures.jpg" %}" class="rounded mx-auto d-block" width="400" height="400">
+    <br>
+    <div class="container">
+      <ul class="list-unstyled">
+        <h2 style="font-size:30px">Main</h2>
+          <li>* Chase Stokes as John B, the ringleader of the Pogues.</li>
+          <li>* Madelyn Cline as Sarah Cameron, daughter of Ward Cameron and John B's love interest. She is referred to by many as the princess of the Kooks, however, her rebellious side often rejects the Kook life and gets her mixed up with the Pogues.</li>
+          <li>* Madison Bailey as Kiara "Kie", the daughter of a successful restaurant owner who hangs out with the Pogues. She is technically a Kook as she comes from a wealthy family and lives in Figure Eight, but the Kooks reject her as a Kook.</li>
+          <li>* Jonathan Daviss as Pope, the brains of the Pogues.</li>
+          <li>* Rudy Pankow as JJ, John B's loyal best friend since the third grade who is a surfer.</li>
+          <li>* Austin North as Topper, Sarah's ex-boyfriend and fellow Kook who despises the Pogues.</li>
+          <li>* Charles Esten as Ward Cameron, Sarah's father, a wealthy business owner who lives on the wealthier part of the Outer Banks known as "Figure Eight.”</li>
+          <li>* Drew Starkey as Rafe Cameron, Sarah's older brother.</li>
+        <br>
+        <br>
+        <h2 style="font-size:30px">Recurring</h2>
+          <li>* Adina Porter as Sheriff Peterkin, the local sheriff</li>
+          <li>* Cullen Moss as Deputy Shoupe, a sketchy cop</li>
+          <li>* Julia Antonelli as Wheezie Cameron, Sarah and Rafe's younger sister</li>
+          <li>* Caroline Arapoglou as Rose, the Cameron siblings' stepmother and Ward's wife</li>
+          <li>*CC Castillo as Lana Grubbs, the widow of a man named Scooter Grubbs who was killed during Hurricane Agatha</li>
+          <li>*Chelle Ramos as Deputy Plumb</li>
+          <li>*Brian Stapf as Cruz</li>
+          <li>*Marland Burke as Mike</li>
+          <li>*Deion Smith as Kelce, Rafe's friend</li>
+          <li>*Nicholas Cirillo as Barry, Rafe's drug dealer and the owner of a pawn shop</li>
+          <li>*Gary Weeks as Luke, JJ's father</li>
+      </ul>
+    </div>
+
+</body>
+</html>

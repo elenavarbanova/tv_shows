@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Actors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/actors1">Outer banks</a>
+          <a class="dropdown-item active" href="#">Elite</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/comments">Comments</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<body>
+  <blockquote class="blockquote text-center">
+    <h1 style="font-size:50px">Actors</h1>
+    </blockquote>
+    <br>
+    <img src="{% static "images/elite_cast.jpg" %}" class="rounded mx-auto d-block" width="700" height="400">
+    <br>
+    <div class="container">
+      <ul class="list-unstyled">
+        <br>
+        <h2 style="font-size:30px">Main</h2>
+        <br>
+        <h5>Introduced in season one:</h5>
+        <li>* María Pedraza as Marina Nunier Osuna, Guzmán's sister and love interest of Nano and Samuel.</li>
+        <li>* Álvaro Rico as Leopoldo "Polo" Benavent Villada, Carla's ex-boyfriend and Cayetana's love interest.</li>
+        <li>* Ester Expósito as Carla Rosón Caleruega, Polo's ex-girlfriend who later falls in love with Samuel.</li>
+        <li>* Miguel Herrán as Christian Varela Expósito, one of three transfer students.</li>
+        <li>* Itzan Escamilla as Samuel García Domínguez, one of three transfer students, who is the love interest of Marina and later falls for Carla.</li>
+        <li>* Jaime Lorente as Fernando "Nano" García Domínguez, Samuel's older brother who just got out of prison, who is also a love interest of Marina.</li>
+        <li>* Miguel Bernardeau as Guzmán Nunier Osuna, adopted brother of Marina, and Lu's ex-boyfriend, who falls for Nadia.</li>
+        <li>* Mina El Hammani as Nadia Shanaa, one of three transfer students, the daughter of Palestinian immigrants and the love interest of Guzmán</li>
+        <li>* Omar Ayuso as Omar Shanaa, Nadia's brother, who falls for Ander against his father's wishes.</li>
+        <li>* Arón Piper as Ander Muñoz, son of the principal who falls for Omar.</li>
+        <li>* Danna Paola as Lucrecia "Lu" Montesinos Hendrich, Guzmán's ex-girlfriend who shares an incestuous relationship with her half-brother, Valerio.</li>
+        <br>
+        <h5>Introduced in season two:</h5>
+        <li>* Jorge López as Valerio Montesinos Rojas, Lu's half-brother. </li>
+        <li>* Claudia Salas as Rebeka "Rebe" de Bormujo Ávalos, a rebel, wealthy girl, who has a crush on Samuel. She is different from the other wealthier students in her class as she likes to extravagantly flaunt her wealth through her clothes and jewellery. </li>
+        <li>* Georgina Amorós as Cayetana Grajera Pando, the daughter of a cleaning lady who lives a fraudulent lifestyle and is the love interest of Polo. </li>
+        <br>
+        <h5>Introduced in season three:</h5>
+        <li>* Leïti Sène as Malik, a love interest of Omar. He is flirtatious, and manipulative, using Nadia as a beard to get closer to Omar. </li>
+        <li>* Sergio Momo as Yeray, a love interest of Carla. A young wealthy student who started up his own business. </li>
+      </ul>
+    </div>
